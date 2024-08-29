@@ -7,12 +7,12 @@ def main():
 	reddit = praw.Reddit(
 		client_id=hidden.BotClientId,
 		client_secret=hidden.BotClientSecret,
-		#password=hidden.BotPassword,
+		password=hidden.BotPassword,
 		user_agent="Bathtub Bot V0.1",
-		#username="BathtubBot"
+		username="BathtubBot"
 	)
 	subreddit = reddit.subreddit("BathtubPaintedBrown")
-	print("Logged in!")
+	print(reddit.user.me().name + " logged in successfully")
 
 
 	for submission in subreddit.stream.comments():
@@ -21,7 +21,7 @@ def main():
 
 def processThis(submission):
 	if "u/bathtubbot" in submission.body.lower():
-		print("Found a comment by " + submission.user)
+		print("Found a comment by " + submission.author.name)
 		strippedComment = submission.body.lower().strip().strip('u/bathtubbot')
 		replylink = None
 		replyphrase = None
@@ -37,15 +37,15 @@ def processThis(submission):
 			return
 		
 		# reply
-		replysuffix = "^(I am a bot, this action was done automatically, message me if you have any issues)"
+		replysuffix = "\n\n^(I am a bot, this action was done automatically, message me if you have any issues)"
 		reply = ""
 		if type(replylink) == type(["lol"]):
 			reply = "I couldn't understand you, but I recognized the word " + replyphrase + ", which could be referring to...\n"
 			for each in replylink:
-				reply += each + "\n"
+				reply += each + "\n\n"
 			reply += "Hopefully I was helpful"
 		else:
-			reply = "Here you go! \n" + replylink
+			reply = "Here you go! \n\n" + replylink
 		reply += replysuffix
 
 		submission.reply(reply)
