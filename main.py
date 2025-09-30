@@ -13,34 +13,39 @@ def main():
 	)
 	subreddit = reddit.subreddit("BathtubPaintedBrown")
 	print(reddit.user.me().name + " logged in successfully")
+	# Sort the list so that we dont have to worry about overlap
+	newWikiLinks = dict(sorted(links.WikiLinks.items()).reverse())
 
 
 	for submission in subreddit.stream.comments():
-		processThis(submission)
+		processThis(submission, newWikiLinks)
 
 
-def processThis(submission):
+def processThis(submission, wikLinks):
 	if "u/bathtubbot" in submission.body.lower():
 		print("Found a comment by " + submission.author.name)
 		strippedComment = submission.body.lower().strip().strip('u/bathtubbot')
 		replylink = None
 		replyphrase = None
+		reply = ""
+		replysuffix = "\n\n^(I am a bot, this action was done automatically, message me if you have any issues)"
 
 		# find the block
-		for link in links.WikiLinks.keys():
+		for link in wikLinks:
 			if link in strippedComment:
-				replylink = links.WikiLinks[link]
+				replylink = wikLinks[link]
 				replyphrase = link
 				break
 		if replylink == None:
 			print("No block or vanity found")
+			reply = "Sorry, i couldnt find anything in your comment to link to"
+			reply += replysuffix
+			submission.reply(reply)
 			return
 		
 		# reply
-		replysuffix = "\n\n^(I am a bot, this action was done automatically, message me if you have any issues)"
-		reply = ""
 		if type(replylink) == type(["lol"]):
-			reply = "I couldn't understand you, but I recognized the word " + replyphrase + ", which could be referring to...\n"
+			reply = "I couldn't understand you completely, but I recognized the word " + replyphrase + ", which could be referring to...\n"
 			for each in replylink:
 				reply += each + "\n\n"
 			reply += "Hopefully I was helpful"

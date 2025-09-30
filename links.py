@@ -1,61 +1,78 @@
 # ALL KEYS SHOULD BE LOWERCASE
 WikiLinks = {
 	# FURNITURE
-    "platform": "https://terraria.wiki.gg/wiki/Platforms",
-    "work bench": "https://terraria.wiki.gg/wiki/Work_Benches",
-    "workbench": "https://terraria.wiki.gg/wiki/Work_Benches",
-    "bathtub": "https://terraria.wiki.gg/wiki/Bathtubs",
-    "bed": "https://terraria.wiki.gg/wiki/Beds",
-    "bookcase": "https://terraria.wiki.gg/wiki/Bookcases",
-    "bookshelf": "https://terraria.wiki.gg/wiki/Bookcases",
-    "clock": "https://terraria.wiki.gg/wiki/Grandfather_Clocks",
-    "dresser": "https://terraria.wiki.gg/wiki/Dressers",
-    "sofa": "https://terraria.wiki.gg/wiki/Sofas",
-    "toilet": "https://terraria.wiki.gg/wiki/Toilets",
-    "table": "https://terraria.wiki.gg/wiki/Tables",
-    "sink": "https://terraria.wiki.gg/wiki/Sinks",
-    "door": "https://terraria.wiki.gg/wiki/Doors",
-    "cup": "https://terraria.wiki.gg/wiki/Cups",
-    "bowl": "https://terraria.wiki.gg/wiki/Bowls",
-    "chair": "https://terraria.wiki.gg/wiki/Chairs",
-    "candle": "https://terraria.wiki.gg/wiki/Candles",
-    "piano": "https://terraria.wiki.gg/wiki/Pianos",
-    "chest": "https://terraria.wiki.gg/wiki/Chests",
-    "candelabra": "https://terraria.wiki.gg/wiki/Candelabras",
-    "large dynasty candle": "https://terraria.wiki.gg/wiki/Candelabras",
-    "chandelier": "https://terraria.wiki.gg/wiki/Chandeliers",
-    "jackelier": "https://terraria.wiki.gg/wiki/Chandeliers",
-    "large dynasty lantern": "https://terraria.wiki.gg/wiki/Chandeliers",
-    "skull lantern": "https://terraria.wiki.gg/wiki/Skull_Lantern",
-    "jack o' lantern": "https://terraria.wiki.gg/wiki/Jack_%27O_Lantern",
-    "jack o lantern": "https://terraria.wiki.gg/wiki/Jack_%27O_Lantern",
-    "jack 'o lantern": "https://terraria.wiki.gg/wiki/Jack_%27O_Lantern",
-    "heart lantern": "https://terraria.wiki.gg/wiki/Heart_Lantern",
-    "star in a bottle": "https://terraria.wiki.gg/wiki/Star_in_a_Bottle",
-    "diabolist lamp": "https://terraria.wiki.gg/wiki/Lanterns",
-    "oil rag sconce": "https://terraria.wiki.gg/wiki/Lanterns",
-    "lantern": "https://terraria.wiki.gg/wiki/Lanterns",
-    "in a bottle": "https://terraria.wiki.gg/wiki/Lanterns",
-    "lamp post": "https://terraria.wiki.gg/wiki/Lamp_Post",
-    "tiki torch": "https://terraria.wiki.gg/wiki/Tiki_Torch",
-    "lamp": "https://terraria.wiki.gg/wiki/Lamps",
-	
+	"platform": "https://terraria.wiki.gg/wiki/Platforms",
+	"work bench": "https://terraria.wiki.gg/wiki/Work_Benches",
+	"workbench": "https://terraria.wiki.gg/wiki/Work_Benches",
+	"bathtub": "https://terraria.wiki.gg/wiki/Bathtubs",
+	"bed": "https://terraria.wiki.gg/wiki/Beds",
+	"bookcase": "https://terraria.wiki.gg/wiki/Bookcases",
+	"bookshelf": "https://terraria.wiki.gg/wiki/Bookcases",
+	"clock": "https://terraria.wiki.gg/wiki/Grandfather_Clocks",
+	"dresser": "https://terraria.wiki.gg/wiki/Dressers",
+	"sofa": "https://terraria.wiki.gg/wiki/Sofas",
+	"toilet": "https://terraria.wiki.gg/wiki/Toilets",
+	"table": "https://terraria.wiki.gg/wiki/Tables",
+	"sink": "https://terraria.wiki.gg/wiki/Sinks",
+	"door": "https://terraria.wiki.gg/wiki/Doors",
+	"cup": "https://terraria.wiki.gg/wiki/Cups",
+	"bowl": "https://terraria.wiki.gg/wiki/Bowls",
+	"chair": "https://terraria.wiki.gg/wiki/Chairs",
+	"piano": "https://terraria.wiki.gg/wiki/Pianos",
+	"chest": "https://terraria.wiki.gg/wiki/Chests",
+	"candelabra": "https://terraria.wiki.gg/wiki/Candelabras",
+	"large dynasty candle": "https://terraria.wiki.gg/wiki/Candelabras",
+	"candle": "https://terraria.wiki.gg/wiki/Candles",
+	"chandelier": "https://terraria.wiki.gg/wiki/Chandeliers",
+	"jackelier": "https://terraria.wiki.gg/wiki/Chandeliers",
+	"large dynasty lantern": "https://terraria.wiki.gg/wiki/Chandeliers",
+	"skull lantern": "https://terraria.wiki.gg/wiki/Skull_Lantern",
+	"jack o' lantern": "https://terraria.wiki.gg/wiki/Jack_%27O_Lantern",
+	"jack o lantern": "https://terraria.wiki.gg/wiki/Jack_%27O_Lantern",
+	"jack 'o lantern": "https://terraria.wiki.gg/wiki/Jack_%27O_Lantern",
+	"heart lantern": "https://terraria.wiki.gg/wiki/Heart_Lantern",
+	"star in a bottle": "https://terraria.wiki.gg/wiki/Star_in_a_Bottle",
+	"star bottle": "https://terraria.wiki.gg/wiki/Star_in_a_Bottle",
+	"diabolist lamp": "https://terraria.wiki.gg/wiki/Lanterns",
+	"oil rag sconce": "https://terraria.wiki.gg/wiki/Lanterns",
+	"lantern": "https://terraria.wiki.gg/wiki/Lanterns",
+	"in a bottle": "https://terraria.wiki.gg/wiki/Lanterns",
+	"lamp post": "https://terraria.wiki.gg/wiki/Lamp_Post",
+	"tiki torch": "https://terraria.wiki.gg/wiki/Tiki_Torch",
+	"lamp": "https://terraria.wiki.gg/wiki/Lamps",
+	"torch": "https://terraria.wiki.gg/wiki/Torches",
+	"life crystal" : "https://terraria.wiki.gg/wiki/Life_Crystal",
+	"heart crystal" : "https://terraria.wiki.gg/wiki/Life_Crystal",
+	"life container" : "https://terraria.wiki.gg/wiki/Life_Crystal",
+	"heart container" : "https://terraria.wiki.gg/wiki/Life_Crystal",
+	"bottle" : "https://terraria.wiki.gg/wiki/Bottle",
+	"hp potion" : "https://terraria.wiki.gg/wiki/Decorative_Healing_Potion",
+	"heal potion" : "https://terraria.wiki.gg/wiki/Decorative_Healing_Potion",
+	"mp potion" : "https://terraria.wiki.gg/wiki/Decorative_Mana_Potion",
+	"mana potion" : "https://terraria.wiki.gg/wiki/Decorative_Mana_Potion",
+	"pink vase" : "https://terraria.wiki.gg/wiki/Pink_Vase",
+	"small vase" : "https://terraria.wiki.gg/wiki/Pink_Vase",
+	"mug" : "https://terraria.wiki.gg/wiki/Mug",
+	"cup" : "https://terraria.wiki.gg/wiki/Cups",
+	"wine glass" : "https://terraria.wiki.gg/wiki/Cups",
+
 	# BLOCKS
 	"dirt": "https://terraria.wiki.gg/wiki/Dirt_Block",
 	"grass": "https://terraria.wiki.gg/wiki/Grasses",
+	"ebonsand": "https://terraria.wiki.gg/wiki/Sand_Blocks",
+	"crimsand": "https://terraria.wiki.gg/wiki/Sand_Blocks",
+	"pearlsand": "https://terraria.wiki.gg/wiki/Sand_Blocks",
+	"sand": "https://terraria.wiki.gg/wiki/Sand_Blocks",
 	"ebonstone": "https://terraria.wiki.gg/wiki/Ebonstone_Block",
 	"crimstone": "https://terraria.wiki.gg/wiki/Crimstone_Block",
 	"pearlstone": "https://terraria.wiki.gg/wiki/Pearlstone_Block",
 	"moss": "https://terraria.wiki.gg/wiki/Moss",
 	"granite": "https://terraria.wiki.gg/wiki/Granite_Block",
 	"marble": "https://terraria.wiki.gg/wiki/Marble_Block",
-	"ebonsand": "https://terraria.wiki.gg/wiki/Sand_Blocks",
-	"crimsand": "https://terraria.wiki.gg/wiki/Sand_Blocks",
-	"pearlsand": "https://terraria.wiki.gg/wiki/Sand_Blocks",
-	"sandstone": "https://terraria.wiki.gg/wiki/Sandstone_Blocks",
 	"ebonsandstone": "https://terraria.wiki.gg/wiki/Sandstone_Blocks",
 	"crimsandstone": "https://terraria.wiki.gg/wiki/Sandstone_Blocks",
 	"pearlsandstone": "https://terraria.wiki.gg/wiki/Sandstone_Blocks",
+	"sandstone": "https://terraria.wiki.gg/wiki/Sandstone_Blocks",
 	"sand stone": "https://terraria.wiki.gg/wiki/Sandstone_Blocks", #ik people always say sand stone instead of just sandstone, i hate it
 	"hardened sand": "https://terraria.wiki.gg/wiki/Hardened_Sand_Blocks",
 	"hardened ebonsand": "https://terraria.wiki.gg/wiki/Hardened_Sand_Blocks",
@@ -64,10 +81,9 @@ WikiLinks = {
 	"desert fossil": "https://terraria.wiki.gg/wiki/Desert_Fossil",
 	"clay": "https://terraria.wiki.gg/wiki/Clay_Block",
 	"mud": "https://terraria.wiki.gg/wiki/Mud_Block",
-	"ash": "https://terraria.wiki.gg/wiki/Ash_Block",
-	"ash grass": "https://terraria.wiki.gg/wiki/Grasses#Ash_grass",
 	"silt": "https://terraria.wiki.gg/wiki/Silt_Block",
 	"snow": "https://terraria.wiki.gg/wiki/Snow_Block",
+	"ice": "https://terraria.wiki.gg/wiki/Ice_Block",
 	"purple ice": "https://terraria.wiki.gg/wiki/Purple_Ice_Block",
 	"corrupt ice": "https://terraria.wiki.gg/wiki/Purple_Ice_Block",
 	"red ice": "https://terraria.wiki.gg/wiki/Red_Ice_Block",
@@ -81,32 +97,50 @@ WikiLinks = {
 	"pumpkin": "https://terraria.wiki.gg/wiki/Pumpkin",
 	"leaf": "https://terraria.wiki.gg/wiki/Leaf_Block",
 	"leaves": "https://terraria.wiki.gg/wiki/Leaf_Block",
-    "stone": "https://terraria.wiki.gg/wiki/Stone_Block",
-    
-    "sand": "https://terraria.wiki.gg/wiki/Sand_Blocks",
-    "ice": "https://terraria.wiki.gg/wiki/Ice_Block",
-    
+	"stone": "https://terraria.wiki.gg/wiki/Stone_Block",
+
+	# ORE
+	"iron ore" : "https://terraria.wiki.gg/wiki/Iron_Ore",
+	"iron bar" : "https://terraria.wiki.gg/wiki/Iron_Bar",
+	"iron brick" : "https://terraria.wiki.gg/wiki/Iron_Brick",
+	"iron plate" : "https://terraria.wiki.gg/wiki/Iron_Brick",
+	"iron plating" : "https://terraria.wiki.gg/wiki/Iron_Brick",
+	"copper ore" : "https://terraria.wiki.gg/wiki/Copper_Ore",
+	"copper bar" : "https://terraria.wiki.gg/wiki/Copper_Bar",
+	"copper brick" : "https://terraria.wiki.gg/wiki/Copper_Plating",
+	"copper plate" : "https://terraria.wiki.gg/wiki/Copper_Plating",
+	"copper plating" : "https://terraria.wiki.gg/wiki/Copper_Plating",
+	
 	# WOOD
-    "dynasty wood": "https://terraria.wiki.gg/wiki/Dynasty_Wood",
+	"living wood": "https://terraria.wiki.gg/wiki/Living_Wood",
+	"living jungle wood": "https://terraria.wiki.gg/wiki/Living_Mahogany",
+	"living mahogany": "https://terraria.wiki.gg/wiki/Living_Mahogany",
+	"dynasty wood": "https://terraria.wiki.gg/wiki/Dynasty_Wood",
 	"boreal wood": "https://terraria.wiki.gg/wiki/Boreal_Wood",
 	"palm wood": "https://terraria.wiki.gg/wiki/Palm_Wood",
 	"mahogany": "https://terraria.wiki.gg/wiki/Rich_Mahogany",
 	"ebonwood": "https://terraria.wiki.gg/wiki/Ebonwood",
 	"shadewood": "https://terraria.wiki.gg/wiki/Shadewood",
-    "spooky wood": "https://terraria.wiki.gg/wiki/Spooky_Wood",
+	"spooky wood": "https://terraria.wiki.gg/wiki/Spooky_Wood",
 	"ash wood": "https://terraria.wiki.gg/wiki/Ash_Wood",
 	"pearlwood": "https://terraria.wiki.gg/wiki/Pearlwood",
-    "bamboo": "https://terraria.wiki.gg/wiki/Bamboo",
-    "living wood": "https://terraria.wiki.gg/wiki/Living_Wood",
-    "living jungle wood": "https://terraria.wiki.gg/wiki/Living_Mahogany",
-    "living mahogany": "https://terraria.wiki.gg/wiki/Living_Mahogany",
+	"bamboo": "https://terraria.wiki.gg/wiki/Bamboo",
 	"wood": "https://terraria.wiki.gg/wiki/Wood",
-    
-	# WALLS
-    "dynasty wall": "https://terraria.wiki.gg/wiki/Dynasty_Walls",
-    
+	
+	# POST WOOD BLOCKS
+	"ash": "https://terraria.wiki.gg/wiki/Ash_Block",
 
+	# WALLS
+	"dynasty wall": "https://terraria.wiki.gg/wiki/Dynasty_Walls",
+	"fence": "https://terraria.wiki.gg/wiki/Fences",
+
+	# PLANTS
+	"flower": "https://terraria.wiki.gg/wiki/Flower_Seeds",
+	"tree" : "https://terraria.wiki.gg/wiki/Trees",
+
+	# ~~~~~~~~~
 	# VANITY
+	# ~~~~~~~~~
 	"aviators" : "https://terraria.wiki.gg/wiki/0x33%27s_Aviators",
 	"badger's": "https://terraria.wiki.gg/wiki/Badger%27s_Hat",
 	"badgers": "https://terraria.wiki.gg/wiki/Badger%27s_Hat",
@@ -170,6 +204,7 @@ WikiLinks = {
 	"vulkelf ears":"https://terraria.wiki.gg/wiki/Vulkelf_Ears",
 	"wizard's hat": "https://terraria.wiki.gg/wiki/Wizard%27s_Hat",
 	"wizards hat": "https://terraria.wiki.gg/wiki/Wizard%27s_Hat",
+
 	# SETS
 	"bride of frankenstein": "https://terraria.wiki.gg/wiki/Bride_of_Frankenstein_set",
 	"bride of frankenstien": "https://terraria.wiki.gg/wiki/Bride_of_Frankenstein_set",
@@ -197,7 +232,6 @@ WikiLinks = {
 	"creeper pants": "https://terraria.wiki.gg/wiki/Creeper_set",
 	"creeper costume": "https://terraria.wiki.gg/wiki/Creeper_set",
 
-
 	# ARMOR
 	"wizard hat": "https://terraria.wiki.gg/wiki/Wizard_Hat",
 
@@ -206,11 +240,14 @@ WikiLinks = {
 	"serpent bowl": "https://terraria.wiki.gg/wiki/Fish_Bowls",
 	"golem head": "https://terraria.wiki.gg/wiki/Rock_Golem_Head",
 
-
 	# DESPERATION ~ VANITY
 	"sweater" : ["https://terraria.wiki.gg/wiki/Dead_Man%27s_Sweater", "https://terraria.wiki.gg/wiki/Ugly_Sweater"],
 	"eye": ["https://terraria.wiki.gg/wiki/Eye_Patch", "https://terraria.wiki.gg/wiki/Eyebrella", "https://terraria.wiki.gg/wiki/Masks#Eye_of_Cthulhu_Mask"],
 	"crown": ["https://terraria.wiki.gg/wiki/Platinum_Crown", "https://terraria.wiki.gg/wiki/Gold_Crown"],
 	"ears": ["https://terraria.wiki.gg/wiki/Goblorc_Ears", "https://terraria.wiki.gg/wiki/Cat_Ears", "https://terraria.wiki.gg/wiki/Panda_Ears", "https://terraria.wiki.gg/wiki/Vulkelf_Ears"],
-	"hairpin": ["https://terraria.wiki.gg/wiki/Heart_Hairpin", "https://terraria.wiki.gg/wiki/Seashell_Hairpin", "https://terraria.wiki.gg/wiki/Star_Hairpin"]
+	"hairpin": ["https://terraria.wiki.gg/wiki/Heart_Hairpin", "https://terraria.wiki.gg/wiki/Seashell_Hairpin", "https://terraria.wiki.gg/wiki/Star_Hairpin"],
+
+	# DESPERATION ~ BLOCKS
+	"iron" : ["https://terraria.wiki.gg/wiki/Iron_Ore", "https://terraria.wiki.gg/wiki/Iron_Bar", "https://terraria.wiki.gg/wiki/Iron_Brick"],
+	"copper" : ["http://terraria.wiki.gg/wiki/Copper_Ore", "http://terraria.wiki.gg/wiki/Copper_Bar", "https://terraria.wiki.gg/wiki/Copper_Plating"]
 }
